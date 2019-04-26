@@ -1,5 +1,10 @@
 RpgMapEditor
 
+Disclaimer: I've had requests to make my old 2D map editor open source, it was sloppily coded a few years back when I didn't know better.
+The project is also literally copied from code I wrote for the game it was supposed to be used for, so a lot of classes are not even used in this project.
+
+Editor code is in Editor.cs (huge surprise there), UI code is in Modules\Controls (UI is entirely written by me, it's also not an example of great code)
+
 Improvements:
 - Can now place tiles by holding down the mouse button instead of clicking it every time
 - Dragging the map by right clicking is now smoother in the top left corner
