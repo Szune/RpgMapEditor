@@ -1,0 +1,45 @@
+RpgMapEditor
+
+Improvements:
+- Can now place tiles by holding down the mouse button instead of clicking it every time
+- Dragging the map by right clicking is now smoother in the top left corner
+
+Files essential to starting the map editor:
+- All files in Content\Graphics\UI
+- All _files_ in Content\ 
+- All _folders_ in Content\
+- At least 1 spritesheet file in Content\Creatures, Content\Items, Content\Tiles
+- Content\scripts\sprites.lua (every lua table needs at least one entry)
+
+Folder/file structure (* = folder, - = file)
+*Content
+--BEFont.xnb (big font)
+--EFont.xnb (regular font)
+--settings.dat
+**scripts
+---sprites.lua
+**Graphics
+***Creatures
+----Spritesheet_Monster1.xnb
+***Items
+----Spritesheet_Items.xnb
+***Tiles
+----Spritesheet_House.xnb
+----Spritesheet_Inside.xnb
+----Spritesheet_Inside_Borders.xnb
+----Spritesheet_Outside.xnb
+----Spritesheet_Terrain.xnb
+----Spritesheet_Water.xnb
+***UI
+----Spritesheet_UI.xnb
+----UI_Arrow_Down.xnb
+----UI_Arrow_Up.xnb
+----UI_Background.xnb
+----UI_Big_Background.xnb
+----UI_Black_Stroke.xnb
+----UI_MapEditorBackground.xnb
+----UI_MapEditorBackground2.xnb
+----UI_Scrollbar.xnb
+----UI_Small_Background.xnb
+----UI_Textbox.xnb
+----UI_White_Pixel.xnb

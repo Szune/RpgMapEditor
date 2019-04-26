@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgMapEditor", "RpgMapEditor.csproj", "{24F923B5-F2A2-4CDB-B67F-B65B2DDCD57F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24F923B5-F2A2-4CDB-B67F-B65B2DDCD57F}.Debug|x86.ActiveCfg = Debug|x86
+		{24F923B5-F2A2-4CDB-B67F-B65B2DDCD57F}.Debug|x86.Build.0 = Debug|x86
+		{24F923B5-F2A2-4CDB-B67F-B65B2DDCD57F}.Release|x86.ActiveCfg = Release|x86
+		{24F923B5-F2A2-4CDB-B67F-B65B2DDCD57F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD5379CC-76B4-403A-9782-B4C03978CB3E}
+	EndGlobalSection
+EndGlobal

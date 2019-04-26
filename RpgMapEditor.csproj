@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{24F923B5-F2A2-4CDB-B67F-B65B2DDCD57F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RpgMapEditor</RootNamespace>
+    <AssemblyName>RpgMapEditor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <MonoGameContentBuilderExe>
+    </MonoGameContentBuilderExe>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Windows\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Windows\Release\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ChangeAction.cs" />
+    <Compile Include="Modules\Controls\NonStaticControls\ComboBox.cs" />
+    <Compile Include="Modules\Controls\StaticControls\Dialog.cs" />
+    <Compile Include="Modules\Controls\HelperObjects\ClickEventObject.cs" />
+    <Compile Include="Modules\Controls\StaticControls\StaticControlsManager.cs" />
+    <Compile Include="Modules\Objects\SelectedObject.cs" />
+    <Compile Include="Modules\Objects\SelectedObjects.cs" />
+    <Compile Include="Modules\Objects\SpriteCollection.cs" />
+    <Compile Include="Sprite.cs" />
+    <Compile Include="Editor.cs" />
+    <Compile Include="Map.cs" />
+    <Compile Include="Modules\Controls\NonStaticControls\Button.cs" />
+    <Compile Include="Modules\Controls\NonStaticControls\ChatPanel.cs" />
+    <Compile Include="Modules\Controls\Control.cs" />
+    <Compile Include="Modules\Controls\NonStaticControls\EViewport.cs" />
+    <Compile Include="Modules\Controls\NonStaticControls\Form.cs" />
+    <Compile Include="Modules\Controls\NonStaticControls\ImageListBox.cs" />
+    <Compile Include="Modules\Controls\NonStaticControls\Label.cs" />
+    <Compile Include="Modules\Controls\NonStaticControls\ListBox.cs" />
+    <Compile Include="Modules\Controls\StaticControls\MessageBox.cs" />
+    <Compile Include="Modules\Controls\NonStaticControls\Panel.cs" />
+    <Compile Include="Modules\Controls\NonStaticControls\ProgressBar.cs" />
+    <Compile Include="Modules\Controls\NonStaticControls\Screen.cs" />
+    <Compile Include="Modules\Controls\NonStaticControls\Scrollbar.cs" />
+    <Compile Include="Modules\Controls\NonStaticControls\Tab.cs" />
+    <Compile Include="Modules\Controls\NonStaticControls\Textbox.cs" />
+    <Compile Include="Modules\Entities\Creature.cs" />
+    <Compile Include="Modules\Entities\Entity.cs" />
+    <Compile Include="Modules\Entities\Item.cs" />
+    <Compile Include="Modules\Entities\Player.cs" />
+    <Compile Include="Modules\Entities\Tile.cs" />
+    <Compile Include="Modules\EventHandlers\EventInput.cs" />
+    <Compile Include="Modules\Objects\Animation.cs" />
+    <Compile Include="Modules\Objects\Attack.cs" />
+    <Compile Include="Modules\Objects\Backpack.cs" />
+    <Compile Include="Modules\Objects\ChatChannel.cs" />
+    <Compile Include="Modules\Objects\ChatMessage.cs" />
+    <Compile Include="Modules\Objects\ControlStyles\ButtonStyle.cs" />
+    <Compile Include="Modules\Objects\ControlStyles\ButtonStyles.cs" />
+    <Compile Include="Modules\Objects\ControlStyles\FormStyle.cs" />
+    <Compile Include="Modules\Objects\ControlStyles\FormStyles.cs" />
+    <Compile Include="Modules\Objects\ControlStyles\Style.cs" />
+    <Compile Include="Modules\Objects\ControlStyles\Styles.cs" />
+    <Compile Include="Modules\Objects\ImageListItem.cs" />
+    <Compile Include="Modules\Objects\Movement.cs" />
+    <Compile Include="Modules\Objects\Quest.cs" />
+    <Compile Include="Modules\Objects\SpriteObject.cs" />
+    <Compile Include="Modules\Objects\Spritesheet.cs" />
+    <Compile Include="Modules\Utilities\AnimationCoordinates.cs" />
+    <Compile Include="Modules\Utilities\Coordinates.cs" />
+    <Compile Include="Modules\Utilities\EQueue.cs" />
+    <Compile Include="Modules\Utilities\MapTile.cs" />
+    <Compile Include="Modules\Utilities\Node.cs" />
+    <Compile Include="Modules\Utilities\SerializableDictionary.cs" />
+    <Compile Include="Modules\Utilities\Size.cs" />
+    <Compile Include="Modules\Utilities\Storage.cs" />
+    <Compile Include="Modules\Utilities\Utility.cs" />
+    <Compile Include="Modules\Utilities\WordWrap.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DynamicLua">
+      <HintPath>..\packages\DynamicLua.1.1.2.0\lib\net40-Client\DynamicLua.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MSBuildProgramFiles32)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Content\BEFont.xnb" />
+    <None Include="Content\EFont.xnb" />
+    <None Include="Content\Game.map" />
+    <None Include="Content\Graphics\UI\UI_Black_Stroke.xnb" />
+    <None Include="Content\Graphics\UI\UI_White_Pixel.xnb" />
+    <None Include="Content\scripts\sprites.lua" />
+    <None Include="Content\settings.dat" />
+    <None Include="README" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\Graphics\Creatures\" />
+    <Folder Include="Content\Graphics\Items\" />
+    <Folder Include="Content\Graphics\Tiles\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

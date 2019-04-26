@@ -328,3 +328,24 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+/Content/Graphics/Creatures/Spritesheet_Monster1.xnb
+/Content/Graphics/Tiles/Spritesheet_Water.xnb
+/Content/Graphics/Tiles/Spritesheet_Terrain.xnb
+/Content/Graphics/Tiles/Spritesheet_Outside.xnb
+/Content/Graphics/Tiles/Spritesheet_Inside_Borders.xnb
+/Content/Graphics/Tiles/Spritesheet_Inside.xnb
+/Content/Graphics/Tiles/Spritesheet_House.xnb
+/Content/Graphics/Tiles
+/Content/Graphics/Items/Spritesheet_Items.xnb
+/Content/Graphics/UI/UI_Textbox.xnb
+/Content/Graphics/UI/UI_Small_Background.xnb
+/Content/Graphics/UI/UI_Scrollbar.xnb
+/Content/Graphics/UI/UI_MapEditorBackground2.xnb
+/Content/Graphics/UI/UI_MapEditorBackground.xnb
+/Content/Graphics/UI/UI_Big_Background.xnb
+/Content/Graphics/UI/UI_Background.xnb
+/Content/Graphics/UI/UI_Arrow_Up.xnb
+/Content/Graphics/UI/UI_Arrow_Down.xnb
+/Content/Graphics/UI/Spritesheet_UI.xnb
+/Content/EFont.xnb
+/Content/BEFont.xnb
