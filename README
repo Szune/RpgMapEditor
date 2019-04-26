@@ -5,6 +5,9 @@ The project is also literally copied from code I wrote for the game it was suppo
 
 Editor code is in Editor.cs (huge surprise there), UI code is in Modules\Controls (UI is entirely written by me, it's also not an example of great code)
 
+Artwork I used in the video showcasing it: https://elysianfieldsrpg.wordpress.com/about/
+Said video: https://www.youtube.com/watch?v=ydekR0tCbPs
+
 Improvements:
 - Can now place tiles by holding down the mouse button instead of clicking it every time
 - Dragging the map by right clicking is now smoother in the top left corner
